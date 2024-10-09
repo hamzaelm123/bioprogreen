@@ -1,0 +1,52 @@
+.contact{
+    background-image: url('../img/onagre2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color: rgb(63, 18, 18);
+    text-shadow: 2px 2px #000000;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    flex-wrap: wrap;
+    
+}
+form{
+    width: 35%;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(164, 166, 167);
+    padding: 30px;
+    margin-right: 40px;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.bioprogreen{
+    width: 350px;
+    text-align: start;
+}
+.bioprogreen h3{
+    color: #471717;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(207, 205, 205);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social-media img{
+    width: 40px;
+    margin: 0px 5px;
+}

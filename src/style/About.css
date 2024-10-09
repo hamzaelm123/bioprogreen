@@ -1,0 +1,62 @@
+.about {
+    background-image: url("../img/onagre2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.about h3 {
+    margin-top: 30px;
+    padding-top: 90px;
+    color: rgb(65, 14, 14);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.text{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    
+}
+.text p{
+    color: rgb(109, 109, 109);
+    margin-top: 30px;
+}
+.partners{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-wrap: wrap;
+}
+h4{
+    margin-top: 20px;
+    color:lightgray ;
+}
+.partners .img-partners{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partners div img{
+    width:150px;
+    margin: 0px 20px;
+}
+.p-content{
+    margin: 60px 0px;
+}
+footer{
+    background-color: rgb(207, 205, 205);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social-media img{
+    width: 40px;
+    margin: 0px 5px;
+}

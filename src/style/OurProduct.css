@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+   width:80%;
+}
+#Categories li{
+    margin: 0px;
+}
+#Categories li button{
+    margin: 0px;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+#Categories li button:hover{
+    background-color: rgb(240, 234, 234);
+}
+
+.products{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin:20px;
+    width: 245px;
+    text-align: start;
+}

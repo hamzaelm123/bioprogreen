@@ -1,0 +1,94 @@
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Space between elements */
+    align-items: center; /* Vertically center the items */
+    background-color: white;
+    padding: 10px 20px;
+    height: fit-content;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+header div img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.UnActive {
+    text-decoration: none;
+    color: black;
+}
+
+.UnActive:hover {
+    opacity: 0.5;
+}
+
+.Active {
+    color: rgb(202, 179, 101);
+    text-decoration: none;
+}
+
+.Active:hover {
+    opacity: 0.5;
+}
+
+.search {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center; /* Ensures the input and button are vertically aligned */
+    justify-content: flex-start;
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.searchbar input[type="search"] {
+    flex-grow: 1; /* Allows the search input to take as much space as possible */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners on the left */
+}
+
+.searchbar input[type="submit"] {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+    border-radius: 0 4px 4px 0; /* Rounded corners on the right */
+    cursor: pointer;
+    margin-left: -1px; /* Remove the gap between the input and the button */
+}
+
+.searchbar input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
